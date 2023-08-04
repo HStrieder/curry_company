@@ -82,7 +82,7 @@ date_slider = st.sidebar.slider(
     max_value=datetime(2022, 4, 6 ),
     format='DD-MM-YYYY' )
 
-st.header( date_slider )
+
 st.sidebar.markdown("""---""")
 
 traffic_options = st.sidebar.multiselect(
